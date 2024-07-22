@@ -9,12 +9,12 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+// import AdbIcon from "@mui/icons-material/Adb";
 import { ThemeProvider } from "@mui/material";
 import theme from "../../css/theme";
 
 import Logo from "../Logo";
-import ClientArea from "../ClientArea";
+// import ClientArea from "../ClientArea";
 
 import styles from "./styles.module.scss";
 

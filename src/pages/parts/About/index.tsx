@@ -2,7 +2,7 @@ import DividerH1 from "../../../components/DividerH1";
 import { Section } from "../../../components/Section";
 import Typography from "@mui/material/Typography";
 import { Box, Stack } from "@mui/material";
-import { BorderTop } from "@mui/icons-material";
+// import { BorderTop } from "@mui/icons-material";
 import TitleSection from "../../../components/TitleSection";
 
 const about_us = [

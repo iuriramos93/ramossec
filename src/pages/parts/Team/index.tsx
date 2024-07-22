@@ -54,7 +54,6 @@ export default function Team() {
               education={equipe.education}
             />
           ))}
-          {/* <TeamItem image={team[0].image} pessoa={team[0].pessoa} /> */}
         </Stack>
       </Stack>
     </Section>
