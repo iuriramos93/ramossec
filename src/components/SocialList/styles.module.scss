@@ -1,0 +1,12 @@
+.SocialList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 40px;
+}
+@media screen and (max-width:780px) {
+    .SocialList {
+        justify-content: center;
+    }
+}

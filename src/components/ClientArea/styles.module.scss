@@ -1,0 +1,14 @@
+.ClientArea {
+    font-family: 'Filson Pro', Roboto;
+    border: solid 1px #325CD9;
+    padding: 16px 40px;
+    color: #325CD9;
+    text-decoration: none;
+    font-weight: 700;
+
+    &:hover {
+        background-color: #325CD9;
+        color: #FCFCFC;
+        transition-duration: 1s;
+    }
+}

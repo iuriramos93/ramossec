@@ -1,0 +1,76 @@
+.Background {
+   position: relative;
+   top: -20px;
+   background-color: #0F3684;
+   width: 82%;
+   height: 236px;
+   border-radius: 0 0 10rem 0;
+   z-index: -2;
+}
+
+.span1 {
+   position: absolute;
+   width: 108px;
+   height: 30px;
+   left: 701px;
+   top: 13px;
+   font-family: "Filson Pro";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 30px;
+   letter-spacing: 0.2px;
+   color: #FFF;
+}
+
+.span2 {
+   display: flex;
+   position: relative;
+   color: #FFF;
+   font-weight: 900;
+   font-size: 39px;
+   top: 40px;
+   left: 700px;
+   width: 50%;
+   font-family: "Filson Pro";
+}
+
+.span3 {
+   color: #011336;
+   opacity: 0.1;
+   position: relative;
+   top: -12%;
+   left: 48%;
+   text-transform: uppercase;
+   z-index: -1;
+   font-family: "Filson Pro";
+   font-size: 10rem;
+   font-weight: 900;
+}
+
+@media screen and (max-width:480px) {
+   .Background {
+      width: 99%;
+   }
+
+   .span1 {
+      top: 10px;
+      left: 5%;
+      font-size: 1.5rem;
+   }
+
+   .span2 {
+      top: 20%;
+      left: 8%;
+      font-size: 2rem;
+   }
+
+
+   .span3 {
+      top: 15%;
+      z-index: 1;
+      left: 2%;
+      font-size: 5rem;
+   }
+
+}

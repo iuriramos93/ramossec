@@ -1,0 +1,11 @@
+.ButtonMenu{
+    // font-family: 'Filson Pro',Roboto !important;
+    color: white !important;
+
+    &:hover{
+        // color:#05C7F2 ;
+        transform: scale(1.2);
+        transition:all .7s;
+        
+    }
+}

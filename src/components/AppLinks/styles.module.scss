@@ -1,0 +1,13 @@
+.AppLink {
+    list-style: none;
+    text-align: left;
+    padding: 0
+}
+
+
+@media only screen and (max-width:720px){
+.AppLink{
+    text-align: center;
+}
+
+}
