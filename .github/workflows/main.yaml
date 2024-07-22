@@ -2,28 +2,31 @@ name: CI/CD
 description: CI and CD
 
 on:
- push:
-  branches:
-   - main
- jobs:
+  push:
+    branches:
+      - main
+
+jobs:
   build-deploy:
-   runs-on: ubuntu-latest
-   steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: Setup Node
-      uses: actions/setupNode@v1
-      with:
-       node-version: "18.19.0"
-    - run: |
-       npm install
-       npm run build
-    - name: Deploy
-      uses: crazy-max/ghaction-github-pages@v1
-      with:
-       target:_branch: deploy
-       build_dir: build
-       env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-    
- 
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.19.0'
+
+      - run: |
+          npm install
+          npm run build
+
+      - name: Deploy
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          target_branch: deploy
+          build_dir: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
