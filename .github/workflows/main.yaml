@@ -1,6 +1,5 @@
 name: CI/CD
 
-
 on:
   push:
     branches:
@@ -30,3 +29,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        jekyll: true
