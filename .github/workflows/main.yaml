@@ -18,7 +18,8 @@ jobs:
         with:
           node-version: '18.19.0'
 
-      - run: |
+      - name: Build Project
+        run: |
           npm install
           npm run build
 
@@ -28,5 +29,4 @@ jobs:
           target_branch: deploy
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
