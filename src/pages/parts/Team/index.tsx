@@ -15,7 +15,7 @@ export default function Team() {
     //        },
 
     {
-      image: "/img/Time/Iuri.jpeg",
+      image: "img/Time/Iuri.jpeg",
       pessoa: "Iuri",
       cargo:"CEO | DEV | DPO",
       education: "Análise e Desenvolvimento de Sistemas, \n Pós Graduado em Segurança da Informação"

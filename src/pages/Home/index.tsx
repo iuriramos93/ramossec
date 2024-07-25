@@ -12,9 +12,7 @@ import Team from "../parts/Team";
 
 window.addEventListener("load", () => {
   const observer = new IntersectionObserver((entries) => {
-    // console.log(entries);
     Array.from(entries).forEach((entry) => {
-      // console.log(entry.target);
       if (entry.isIntersecting) {
         if (entry.target.id == "home") {
           entry.target.children[0].children[0].children[2].setAttribute(
