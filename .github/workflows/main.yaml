@@ -1,5 +1,4 @@
 name: CI/CD
- description: CI and CD
 
 on:
   push:
