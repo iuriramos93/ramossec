@@ -6,14 +6,14 @@ import TitleSection from "../../../components/TitleSection";
 
 
 const valores = [
-  { background: "/img/valores/Inovacao.png", text: "Inovação" },
-  { background: "/img/valores/Uniao.png", text: "União" },
-  { background: "/img/valores/Resultado.png", text: "Resultado" },
-  { background: "/img/valores/Phoda.png", text: "Phodaa!" },
-  { background: "/img/valores/Criatividade.png", text: "Criatividade" },
-  { background: "/img/valores/Arte.png", text: "Arte" },
-  { background: "/img/valores/Respeito.png", text: "Respeito" },
-  { background: "/img/valores/Proatividade.png", text: "Proatividade" },
+  { background: "img/valores/Inovacao.png", text: "Inovação" },
+  { background: "img/valores/Uniao.png", text: "União" },
+  { background: "img/valores/Resultado.png", text: "Resultado" },
+  { background: "img/valores/Phoda.png", text: "Phodaa!" },
+  { background: "img/valores/Criatividade.png", text: "Criatividade" },
+  { background: "img/valores/Arte.png", text: "Arte" },
+  { background: "img/valores/Respeito.png", text: "Respeito" },
+  { background: "img/valores/Proatividade.png", text: "Proatividade" },
 ];
 
 export default function Valores() {
